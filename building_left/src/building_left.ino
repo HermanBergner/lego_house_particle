@@ -34,7 +34,7 @@ void setup(){
   pinMode(baller_light, OUTPUT);
 
   cafeServo.attach( D0 );
-  Particle.function("door", door);
+  Particle.function("cafe_door", door);
 
   Particle.function("pixel_light", tog_pixel);
   Particle.function("baller_light", tog_3_light);

@@ -17,7 +17,7 @@ void setup(){
   pinMode(flame_pin, INPUT);
 
   cafeServo.attach( D0 );
-  Particle.function("door", door);
+  Particle.function("baker_door", door);
 
   Particle.function("family_light", tog_3_light);
   Particle.function("dent_light", tog_2_light);
